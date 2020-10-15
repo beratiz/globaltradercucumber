@@ -18,11 +18,11 @@ public class ProductDetailPage {
     public WebElement shippingAndPaymentsTabBtn;
 
     @FindBy(xpath = "//tbody[2]//tr//td[1]")
-    public List<WebElement> shippingCompanyList;
+    private List<WebElement> shippingCompanyList;
 
     public List<String> shippingCompanyStrList(){
         List<String> strList = new ArrayList<>();
-        for (WebElement w: shippingCompanyList) {
+        for (WebElement w: this.shippingCompanyList) {
             strList.add(w.getText());
         }
         return strList;

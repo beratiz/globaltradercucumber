@@ -42,11 +42,9 @@ public class DHLShippingStepDefinition {
     }
 
 
-
     @Then("verify {string} is in the table")
     public void verify_is_in_the_table(String string) {
         Assert.assertTrue(productDetailPage.shippingCompanyStrList().contains(string));
-
     }
 
 
