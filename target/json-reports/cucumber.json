@@ -1,0 +1,138 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-15T18:46:22.982Z",
+        "before": [
+          {
+            "result": {
+              "duration": 736000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "TC_001 Testing if DHL shipping option for iPad Pro is available on the table",
+        "description": "",
+        "id": "us-001-dhlshipping-should-be-available-for-ipadpro-on-the-table;tc-001-testing-if-dhl-shipping-option-for-ipad-pro-is-available-on-the-table",
+        "after": [
+          {
+            "result": {
+              "duration": 682484000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4491678000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the start page",
+            "match": {
+              "location": "stepdefinitions.DHLShippingStepDefinition.user_is_on_the_start_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 114597000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on the Computers\u0026Office button",
+            "match": {
+              "location": "stepdefinitions.DHLShippingStepDefinition.user_clicks_on_the_Computers_Office_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1160370000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on the Ipad link",
+            "match": {
+              "location": "stepdefinitions.DHLShippingStepDefinition.user_clicks_on_the_Ipad_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2593292000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on the Apple Ipad Pro link",
+            "match": {
+              "location": "stepdefinitions.DHLShippingStepDefinition.user_clicks_on_the_Apple_Ipad_Pro_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 194163000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on the Shipping \u0026 Payments tab",
+            "match": {
+              "location": "stepdefinitions.DHLShippingStepDefinition.user_clicks_on_the_Shipping_Payments_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 436630000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify \"DHL\" is in the table",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DHL\"",
+                  "offset": 7
+                }
+              ],
+              "location": "stepdefinitions.DHLShippingStepDefinition.verify_is_in_the_table(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dhltest"
+          }
+        ]
+      }
+    ],
+    "name": "US_001_DHLShipping_should_be_available_for_IpadPro_on_the_table",
+    "description": "",
+    "id": "us-001-dhlshipping-should-be-available-for-ipadpro-on-the-table",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US_001_DHLShipping_should_be_available_for_IpadPro_on_the_table.feature",
+    "tags": [
+      {
+        "name": "@dhltest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

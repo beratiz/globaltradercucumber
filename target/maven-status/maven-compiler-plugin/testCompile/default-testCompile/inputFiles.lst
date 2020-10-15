@@ -1,0 +1,8 @@
+/home/brt/IdeaProjects/globaltradercucumber/src/test/java/pages/ProductsPage.java
+/home/brt/IdeaProjects/globaltradercucumber/src/test/java/pages/ProductDetailPage.java
+/home/brt/IdeaProjects/globaltradercucumber/src/test/java/utilities/Driver.java
+/home/brt/IdeaProjects/globaltradercucumber/src/test/java/runners/TestRunner.java
+/home/brt/IdeaProjects/globaltradercucumber/src/test/java/stepdefinitions/Hooks.java
+/home/brt/IdeaProjects/globaltradercucumber/src/test/java/pages/StartPage.java
+/home/brt/IdeaProjects/globaltradercucumber/src/test/java/stepdefinitions/DHLShippingStepDefinition.java
+/home/brt/IdeaProjects/globaltradercucumber/src/test/java/utilities/ConfigReader.java
