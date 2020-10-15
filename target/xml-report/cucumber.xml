@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="19.727">
-    <testcase classname="US_001_DHLShipping_should_be_available_for_IpadPro_on_the_table" name="TC_001 Testing if DHL shipping option for iPad Pro is available on the table" time="19.607">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="83.241">
+    <testcase classname="US_001_DHLShipping_should_be_available_for_IpadPro_on_the_table" name="TC_001 Testing if DHL shipping option for iPad Pro is available on the table" time="83.112">
         <system-out><![CDATA[Given user is on the start page.............................................passed
 And user clicks on the Computers&Office button..............................passed
 And user clicks on the Ipad link............................................passed
